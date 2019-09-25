@@ -1,0 +1,46 @@
+* {
+    padding:0;
+    margin: 0;
+    font-family: 'Mansalva', cursive;
+}
+main {
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box img {
+    border-radius: 60px;
+    box-shadow: 5px 10px #e6ccff;
+
+}
+.box{
+    width: 300px;
+    height: 250px;
+    border: 2px solid #cc99ff;
+    border-radius: 20px;
+    margin: 5px 3px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards h1, .cards h2 {
+    border-bottom: 1px solid #d9b3ff;
+}
+.marg {
+    margin: 5px 0px;
+
+}
+@media screen and (min-width:780px){
+    main{
+        flex-flow: wrap;
+    }
+    .box{
+    width: 400px;
+    height: 300px;
+    }
+}
